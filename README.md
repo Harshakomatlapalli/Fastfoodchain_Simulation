@@ -8,12 +8,12 @@ This project simulates 20 hours of restaurant operations, modeling the stochasti
 Project Structure
 Plaintext
 mcdonalds-simulation/
-data/               # Input parameters (arrival_rates.csv)
-src/                # Core simulation logic (Fastfood class and methods)
-notebooks/          # Exploratory analysis and visualization
-tests/              # Unit tests for arrival rate logic
-requirements.txt    # Dependency list with specific versions
-README.md           # Project documentation
+- data/               # Input parameters (arrival_rates.csv)
+- src/                # Core simulation logic (Fastfood class and methods)
+- notebooks/          # Exploratory analysis and visualization
+- tests/              # Unit tests for arrival rate logic
+- requirements.txt    # Dependency list with specific versions
+- README.md           # Project documentation
 
 Requirements & Installation
 This simulation requires Python 3.9+ and the following libraries:
