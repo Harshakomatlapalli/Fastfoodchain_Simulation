@@ -14,13 +14,13 @@ Project Structure
 Requirements & Installation
 This simulation requires Python 3.9+ and the following libraries:
 
-simpy==4.1.1 (Discrete event engine)
+ * simpy==4.1.1 (Discrete event engine)
 
-pandas==2.2.3 (Data structuring)
+* pandas==2.2.3 (Data structuring)
 
-numpy==2.2.0 (Statistical distributions)
+* numpy==2.2.0 (Statistical distributions)
 
-matplotlib==3.10.0 & seaborn==0.13.2 (Visualization)
+* matplotlib==3.10.0 & seaborn==0.13.2 (Visualization)
 
 To install, run:
 
