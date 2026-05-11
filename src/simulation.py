@@ -1,5 +1,13 @@
 import simpy 
 import random
+import pandas as pd
+import numpy as np
+
+# Load the CSV
+df = pd.read_csv('../data/arrival_rates.csv')
+
+# Convert the arrival rate column into a numpy array so the class can use it
+arrival_rates = df["Customer_Arrival_Rate"].to_numpy()
 
 class FastFoodchain:
     def __init__(self, env, arrival_rate):
