@@ -6,13 +6,9 @@ A specialized Discrete Event Simulation (DES) built to analyze and optimize serv
 This project simulates 20 hours of restaurant operations, modeling the stochastic nature of customer arrivals and the multi-stage fulfillment process. It compares a baseline operation against improved scenarios to determine the impact of automation and resource flexibility on queue lengths and resource utilization.
 
 Project Structure
-Plaintext
-mcdonalds-simulation/
-- data/               # Input parameters (arrival_rates.csv)
-- src/                # Core simulation logic (FastFoodchain class and methods)
+- data/               # Input parameters (arrival_rates.csv and  requirements.txt)
+- src/                # Core simulation logic 
 - notebooks/          # Exploratory analysis and visualization
-- tests/              # Unit tests for arrival rate logic
-- requirements.txt    # Dependency list with specific versions
 - README.md           # Project documentation
 
 Requirements & Installation
@@ -51,10 +47,10 @@ Process Automation: Tested the impact of Automated Labeling in the packing stage
 
 Capacity Expansion: Analyzed the effect of adding a third cook during peak hours identified by the arrival_rates.csv.
 
-🚀 How to Run
+
 Navigate to the notebooks/ folder.
 
-Open exploratory_sim.ipynb.
+Open baseline_analysis.ipynb.
 
 The notebook is configured to load data from data/arrival_rates.csv and import the engine from src/simulation.py.
 
